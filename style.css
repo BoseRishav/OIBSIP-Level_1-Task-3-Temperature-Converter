@@ -1,0 +1,53 @@
+#section{
+    margin-top: 15rem;
+    margin-left: 20rem;
+    font-size: 1.5rem;
+}
+body{
+    background-image: url(/bg.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+h2{
+    color: #a62f04;
+}
+
+#temp_diff{
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 8px;
+    font-size:18px ;
+    font-weight:500 ;
+    border: none;
+    outline: none;
+}
+#temp{
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 8px;
+    font-size:18px ;
+    font-weight:500 ;
+    border: none;
+    outline: none;
+}
+#submit{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 2px;
+    font-size: medium;
+    transition: all,0.5s,ease;
+    background-color: #0991E5;
+}
+#submit:hover{
+    background-color: #53B7F5;
+    cursor: pointer;
+
+}
+#result{
+    font-size: 30px;
+    font-style: italic;
+}
